@@ -1,0 +1,5 @@
+const Discord = require('discord.js');
+const fs = require('fs');
+const superagent = require("superagent");
+const config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
+var client = new Discord.Client();
